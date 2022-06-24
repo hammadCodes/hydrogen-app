@@ -68,7 +68,6 @@ export function ProductCard({product, label, className, loading, onClick}) {
           >
             {product.title}
           </Text>
-          <h1>I am here</h1>
           <div className="flex gap-4">
             <Text className="flex gap-4">
               <Money withoutTrailingZeros data={price} />
